@@ -665,6 +665,7 @@ namespace UnityEngine.UI
             if (vertCount <= 0)
             {
                 toFill.Clear();
+                m_DisableFontTextureRebuiltCallback = false;
                 return;
             }
 
